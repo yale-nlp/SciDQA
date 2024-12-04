@@ -72,12 +72,12 @@ def get_tabs(pid):
     abstract = ptabs[pid]['abs']
     return title, abstract
 
-if os.path.exists("../data/section_chunk_tokens_ss.pkl"):
-    with open("../data/section_chunk_tokens_ss.pkl", "rb") as fin:
-        tokens_data = pickle.load(fin)
-else:
-    print("Please run the script to generate the section chunk tokens first.")
-    tokens_data = {}
+# if os.path.exists("../data/section_chunk_tokens_ss.pkl"):
+#     with open("../data/section_chunk_tokens_ss.pkl", "rb") as fin:
+#         tokens_data = pickle.load(fin)
+# else:
+#     print("Please run the script to generate the section chunk tokens first.")
+#     tokens_data = {}
 
 if os.path.exists("../data/model_len_ft_chunks.pkl"):
     with open("../data/model_len_ft_chunks.pkl", "rb") as fin:
