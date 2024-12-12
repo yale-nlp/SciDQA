@@ -9,6 +9,9 @@ Scientific literature is typically dense, requiring significant background knowl
 `conda activate scidqa`  
 `pip install -r requirements.txt` 
 
+### Dataset License
+Our dataset is made available under the [Open Data Commons Attribution License (ODC-By) v1.0](https://opendatacommons.org/licenses/by/1-0/).
+
 ### Citation
 If you use our dataset, please cite our paper:  
 ```
