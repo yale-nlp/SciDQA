@@ -35,8 +35,8 @@ paper_id = scidqa_df['pid'][0]
 with open('src/data/papers_fulltext_nougat.pkl', 'rb) as fp:
     paper_fulltext_dict = pickle.load(fp)
 
-print("Full-text of the mansucript at submission:\n", paper_fulltext_dict[paper_id]['initial'])
-print("Full-text of the camera-ready mansucript:\n", paper_fulltext_dict[paper_id]['final'])
+print("Full-text of the mansucript at submission:\n", paper_fulltext_dict['initial'][paper_id])
+print("Full-text of the camera-ready mansucript:\n", paper_fulltext_dict['final'][paper_id])
 ```
 
 
